@@ -5,31 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trevor Aquiningoc</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   </head>
   <body>
     <!-- Navigation Bar -->
     <header data-bs-theme="dark">
-        <nav class="navbar navbar-expand-md fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md fixed-top bg-dark font-weight-bold">
           <div class="collapse navbar-collapse justify-content-center">
             <div class="navbar-nav">
-              <a class="nav-link">About</a>
-              <a class="nav-link">Work</a>
-              <a class="nav-link">Projects</a>
-              <a class="nav-link">Contact</a>
+              <a class="nav-link px-4" style="font-size:150%;"><i class="bi bi-person-badge-fill"></i> About</a>
+              <a class="nav-link px-4" style="font-size:150%;"><i class="bi bi-person-fill-gear"></i> Skills</a>
+              <a class="nav-link px-4" style="font-size:150%;"><i class="bi bi-building-fill"></i> Work</a>
+              <a class="nav-link px-4" style="font-size:150%;"><i class="bi bi-tools"></i> Projects</a>
             </div>
           </div>
         </nav>
     </header>
-
+    <br>
     <!-- About Me -->
-    <div class="px-4 py-5 my-5 text-center">
-        <!-- <img class="rounded-circle" alt="avatar1" src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" /> -->
+    <div class="container-fluid px-5 py-5 my-5 text-center" id="personal-summary">
         <img class="rounded-circle img-fluid w-25" alt="pfp" src="../static/009_220618ROSSTALABACV.jpg" />
         <h1 class="display-5 fw-bold text-body-emphasis">Trevor J. Aquiningoc</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4"> Mechanical Engineering and Computer Science are increasingly interconnected and yet often are worked on separate pipelines. I seek to tie together both fields to accelerate engineering analysis and elevate mechanical capabilities.</p>
+          <p class="lead mb-4"> Mechanical Engineering and Computer Science are increasingly interconnected but are often seperated. I seek to tie together both fields to accelerate analysis and elevate engineering.</p>
         </div>
-        <button type="button" class="btn btn-dark">My Resume</button>
+        <div class="btn-group" role="group">
+          <a type="button" class="btn btn-success btn-lg" href="mailto:trevor.aquiningoc@gmail.com"><i class="bi bi-envelope-at-fill"></i> Email</a>
+          <button type="button" class="btn btn-success btn-lg"><i class="bi bi-file-earmark-text-fill"></i> Resume</button>
+          <a type="button" class="btn btn-success btn-lg" href="https://www.linkedin.com/in/trevoa/"><i class="bi bi-linkedin"></i> Linkedin</a>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <hr/>
+    <!-- Skills -->
+    <div class="container-fluid text-center" id="skills">
+      <h1 class="display-5 fw-bold text-body-emphasis">Skills</h1>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
